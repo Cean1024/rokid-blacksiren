@@ -6,6 +6,9 @@
 #include <string>
 
 #include "siren_config_if.h"
+
+#define  CONFIG_BACKUP_FILE_PATH "/etc/blacksiren.json"
+
 namespace BlackSiren {
 
 class SirenConfigurationManager {
